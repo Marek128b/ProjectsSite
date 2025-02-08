@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My Projects'
+
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
