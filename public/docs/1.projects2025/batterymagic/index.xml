@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Battery Magic on My Projects</title>
-    <link>https://example.org/docs/1.projects2025/batterymagic/</link>
-    <description>Recent content in Battery Magic on My Projects</description>
+    <title>Battery Magic :: My Projects</title>
+    <link>http://localhost:1313/docs/1.projects2025/batterymagic/index.html</link>
+    <description>Introduction Test Boards TI Test Board PMP10921 14V-24Vdc Input Voltage, 3-series Cell Li-Ion Battery Charger Reference Design Overview The PMP10921 reference design uses the BQ24600 Li-Ion synchronous buck controller to charge up to three series cells. It is designed to charge the cells at 0.372A, but can charge at higher currents by changing one resistor. The board area is less than 20mm x 20mm.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/docs/1.projects2025/batterymagic/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/1.projects2025/batterymagic/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
