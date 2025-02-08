@@ -6,7 +6,7 @@ weight = 1
 
 In this chapter you will find a quick overview about this documentation page and the ham radio project.
 
-```
+```mermaid {align="center" zoom="true"}
 pie title Money for the project
   "Si5351" : 7
   "3.5 inch TFT LCD Module" : 17

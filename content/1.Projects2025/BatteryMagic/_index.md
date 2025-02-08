@@ -49,18 +49,17 @@ Highly integrated controller with wide operating range
 |Topology	           |Buck-Synchronous|
 
 #### Schematics
-https://www.ti.com/lit/df/tidrgx1/tidrgx1.pdf?ts=1739002202741
+{{% button href="https://www.ti.com/lit/df/tidrgx1/tidrgx1.pdf?ts=1739002202741" style="blue" icon="download" iconposition="right" %}}Get Schematics{{% /button %}}
 
 #### Bill of materials
-https://www.ti.com/lit/df/tidrgx2/tidrgx2.pdf?ts=1739002239837
+{{% button href="https://www.ti.com/lit/df/tidrgx2/tidrgx2.pdf?ts=1739002239837" style="primary" icon="download" iconposition="right" %}}Get Bill of Materials{{% /button %}}
 
 #### Gerber File
-[Gerber file — PMP10921](Ti%20Test%20Board%20img/tidcaw5.zip)
+{{% button href="Ti%20Test%20Board%20img/tidcaw5.zip" style="orange" icon="download" iconposition="right" %}}Get Gerber{{% /button %}}
 
 ## Datasheets
 ### BQ24600
-https://www.ti.com/lit/ds/symlink/bq24600.pdf?ts=1738941868839&ref_url=https%253A%252F%252Fwww.ti.com%252Fbattery-management%252Fcharger-ics%252Fproducts.html
-
+{{% button href="https://www.ti.com/lit/ds/symlink/bq24600.pdf?ts=1738941868839&ref_url=https%253A%252F%252Fwww.ti.com%252Fbattery-management%252Fcharger-ics%252Fproducts.html" style="accent" icon="download" iconposition="right" %}}Get Datasheet{{% /button %}}
 
 ## GitHub 
-https://github.com/Marek128b/BatteryMagic_monitor/tree/main
+{{% button href="https://github.com/Marek128b/BatteryMagic_monitor/tree/main" style="info" %}}Goto GitHub{{% /button %}}

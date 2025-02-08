@@ -3,3 +3,12 @@ languageCode = 'en-us'
 title = 'My Projects'
 
 theme = 'hugo-theme-relearn'
+
+[params]
+  math = true
+  mathJaxInitialize = '{}'
+  mermaidInitialize = '{ "securityLevel": "loose" }'
+  mermaidZoom = true
+  titleSeparator = ','
+  [params.mermaid]
+    force = false

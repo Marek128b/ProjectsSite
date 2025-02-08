@@ -1,8 +1,6 @@
 ---
-title: Introduction
+title: Intro
 type: docs
 ---
-
-# Introduction
 
 lorem ipsum
