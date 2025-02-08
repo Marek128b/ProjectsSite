@@ -1,0 +1,68 @@
+<!doctype html><html lang=en-us dir=ltr><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="The receiver in this project is the most vital part of the transceiver. The Receiver is build as a Superhet receiver.
+table of content
+
+Graph of received signal
+
+FunkY Receiver Path Diagram
+
+
+Antenna Filtering
+Small signal Amplifier
+Mixers and Oscillator
+SSB Filter
+Demodulation
+Audio Amplifier
+
+
+  Graph of received signal
+  #
+
+Inspiration from Land Boards
+
+
+
+  FunkY Receiver Path Diagram
+  #
+
+This is a graph which shows the receiver path of the transceiver."><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="http://localhost:1313/docs/1.overview/receiver/"><meta property="og:site_name" content="My Projects"><meta property="og:title" content="Receiver"><meta property="og:description" content="The receiver in this project is the most vital part of the transceiver. The Receiver is build as a Superhet receiver.
+table of content
+Graph of received signal FunkY Receiver Path Diagram Antenna Filtering Small signal Amplifier Mixers and Oscillator SSB Filter Demodulation Audio Amplifier Graph of received signal#Inspiration from Land Boards
+FunkY Receiver Path Diagram#This is a graph which shows the receiver path of the transceiver."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>Receiver | My Projects</title>
+<link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=http://localhost:1313/docs/1.overview/receiver/><link rel=stylesheet href=/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.cd786d6e36e4614906e5d9dc762622572c9fc0d350b03fa43ef79cfe2c764383.js integrity="sha256-zXhtbjbkYUkG5dncdiYiVyyfwNNQsD+kPvec/ix2Q4M=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><span>My Projects</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li class=book-section-flat><a href=/docs/batterymagic/>Battery Magic</a><ul></ul></li><li><a href=/docs/1.overview/>Overview</a><ul><li><a href=/docs/1.overview/receiver/ class=active>Receiver</a></li><li><a href=/docs/1.overview/transmitter/>Transmitter</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label><h3>Receiver</h3><label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><ul><li><a href=#graph-of-received-signal>Graph of received signal</a></li><li><a href=#antenna-filtering>Antenna Filtering</a></li><li><a href=#small-signal-amplifier>Small signal Amplifier</a></li><li><a href=#mixers-and-oscillator>Mixers and Oscillator</a></li><li><a href=#ssb-filter>SSB Filter</a></li><li><a href=#demodulation>Demodulation</a></li><li><a href=#audio-amplifier>Audio Amplifier</a></li></ul></li></ul></li></ul></nav></aside></header><article class="markdown book-article"><p>The receiver in this project is the most vital part of the transceiver. The Receiver is build as a Superhet receiver.</p><p><strong>table of content</strong></p><ul><li><a href=#graph-of-received-signal>Graph of received signal</a><ul><li><a href=#funky-receiver-path-diagram>FunkY Receiver Path Diagram</a></li></ul></li><li><a href=#antenna-filtering>Antenna Filtering</a></li><li><a href=#small-signal-amplifier>Small signal Amplifier</a></li><li><a href=#mixers-and-oscillator>Mixers and Oscillator</a></li><li><a href=#ssb-filter>SSB Filter</a></li><li><a href=#demodulation>Demodulation</a></li><li><a href=#audio-amplifier>Audio Amplifier</a></li></ul><h3 id=graph-of-received-signal>Graph of received signal
+<a class=anchor href=#graph-of-received-signal>#</a></h3><p>Inspiration from <a href="https://land-boards.com/blwiki/index.php?title=A_Termination_Insensitive_Amplifier_for_Bidirectional_Transceivers">Land Boards</a></p><p><img src=/img/WhatsApp%20Image%202024-06-28%20at%2015.12.03.jpeg alt="no no no no"></p><hr><h4 id=funky-receiver-path-diagram>FunkY Receiver Path Diagram
+<a class=anchor href=#funky-receiver-path-diagram>#</a></h4><p>This is a graph which shows the receiver path of the transceiver.</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>---
+title: FunkY Receiver Path Diagram
+---
+graph TB;
+Antenna --&gt;|14MHz - 14.35MHz USB| 20m-Filter
+20m-Filter --&gt; TIA_NR1
+TIA_NR1 --&gt;|14MHz - 14.35MHz USB| IF@{shape: cross-circ, label: &#34;IF Mixer&#34;}
+VFO --&gt;|29.9952MHz - 30.3452MHz| IF
+IF --&gt;|15.9952MHz LSB| TIA_NR2
+TIA_NR2 --&gt; SSB-Filter[&#34;
+    SSB-Filter
+    2.7kHz BW&#34;]
+SSB-Filter --&gt; TIA_NR3
+TIA_NR3 --&gt;|15.9952MHz LSB| AF@{shape: cross-circ, label:&#34;AF Mixer&#34;}
+BFO --&gt;|15.9979MHz| AF
+AF --&gt;|2.7kHz USB| Audio_Amp
+Audio_Amp --&gt; Speaker 
+
+    click Antenna &#34;#antenna-filtering&#34;
+    click 20m-Filter &#34;#antenna-filtering&#34;
+    click TIA_NR1 &#34;#small-signal-amplifier&#34;
+    click IF &#34;#mixers-and-oscillator&#34;
+    click TIA_NR2 &#34;#small-signal-amplifier&#34;
+    click SSB-Filter &#34;#ssb-filter&#34;
+    click TIA_NR3 &#34;#small-signal-amplifier&#34;
+    click AF &#34;#mixers-and-oscillator&#34;
+    click Audio_Amp &#34;#audio-amplifier&#34;
+    click Speaker &#34;#audio-amplifier&#34;
+</code></pre><h3 id=antenna-filtering>Antenna Filtering
+<a class=anchor href=#antenna-filtering>#</a></h3><p>The antenna captures the electromagnetic waves carrying the radio signals. Since at the antenna there are signals from various frequencies present and we don&rsquo;t want to get any problems with mirror Frequencies we have to filter out any unwanted frequencies.</p><p><strong>Band-Pass Filters:</strong> The filters are used to limit the input signal to the target frequency band which in our case is the 20m Band ranging from 14MHz to 14.35MHz. These filters ensure that unwanted signals outside the ham radio&rsquo;s operating range are rejected early in the process, minimizing interference and improving selectivity.</p><table><thead><tr><th style=text-align:center>Image Filter 20m</th><th style=text-align:center>Lower Cutoff</th><th style=text-align:center>Upper Cutoff</th></tr></thead><tbody><tr><td style=text-align:center><img src=/img/WhatsApp%20Image%202024-09-30%20at%2011.48.09%20%281%29.jpeg alt></td><td style=text-align:center><img src=/img/WhatsApp%20Image%202024-07-28%20at%2016.46.35.jpeg alt></td><td style=text-align:center><img src=/img/WhatsApp%20Image%202024-07-28%20at%2016.46.35%20%281%29.jpeg alt="Filter 2"></td></tr></tbody></table><h3 id=small-signal-amplifier>Small signal Amplifier
+<a class=anchor href=#small-signal-amplifier>#</a></h3><h3 id=mixers-and-oscillator>Mixers and Oscillator
+<a class=anchor href=#mixers-and-oscillator>#</a></h3><h3 id=ssb-filter>SSB Filter
+<a class=anchor href=#ssb-filter>#</a></h3><h3 id=demodulation>Demodulation
+<a class=anchor href=#demodulation>#</a></h3><h3 id=audio-amplifier>Audio Amplifier
+<a class=anchor href=#audio-amplifier>#</a></h3></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><ul><li><a href=#graph-of-received-signal>Graph of received signal</a></li><li><a href=#antenna-filtering>Antenna Filtering</a></li><li><a href=#small-signal-amplifier>Small signal Amplifier</a></li><li><a href=#mixers-and-oscillator>Mixers and Oscillator</a></li><li><a href=#ssb-filter>SSB Filter</a></li><li><a href=#demodulation>Demodulation</a></li><li><a href=#audio-amplifier>Audio Amplifier</a></li></ul></li></ul></li></ul></nav></div></aside></main></body></html>

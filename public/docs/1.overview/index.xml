@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Overview on My Projects</title><link>http://localhost:1313/docs/1.overview/</link><description>Recent content in Overview on My Projects</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/docs/1.overview/index.xml" rel="self" type="application/rss+xml"/><item><title>Receiver</title><link>http://localhost:1313/docs/1.overview/receiver/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/1.overview/receiver/</guid><description>&lt;p>The receiver in this project is the most vital part of the transceiver. The Receiver is build as a Superhet receiver.&lt;/p>
+&lt;p>&lt;strong>table of content&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#graph-of-received-signal">Graph of received signal&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#funky-receiver-path-diagram">FunkY Receiver Path Diagram&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#antenna-filtering">Antenna Filtering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#small-signal-amplifier">Small signal Amplifier&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mixers-and-oscillator">Mixers and Oscillator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ssb-filter">SSB Filter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#demodulation">Demodulation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#audio-amplifier">Audio Amplifier&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="graph-of-received-signal">
+ Graph of received signal
+ &lt;a class="anchor" href="#graph-of-received-signal">#&lt;/a>
+&lt;/h3>
+&lt;p>Inspiration from &lt;a href="https://land-boards.com/blwiki/index.php?title=A_Termination_Insensitive_Amplifier_for_Bidirectional_Transceivers">Land Boards&lt;/a>&lt;/p>
+&lt;p>&lt;img src="http://localhost:1313/img/WhatsApp%20Image%202024-06-28%20at%2015.12.03.jpeg" alt="no no no no" />&lt;/p>
+&lt;hr>
+&lt;h4 id="funky-receiver-path-diagram">
+ FunkY Receiver Path Diagram
+ &lt;a class="anchor" href="#funky-receiver-path-diagram">#&lt;/a>
+&lt;/h4>
+&lt;p>This is a graph which shows the receiver path of the transceiver.&lt;/p></description></item><item><title>Transmitter</title><link>http://localhost:1313/docs/1.overview/transmitter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/1.overview/transmitter/</guid><description>&lt;p>arnteianreisntieanri&lt;/p></description></item></channel></rss>
