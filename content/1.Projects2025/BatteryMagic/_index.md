@@ -14,6 +14,7 @@ title: "Battery Magic"
     - [Schematics](#schematics)
     - [Bill of materials](#bill-of-materials)
     - [Gerber File](#gerber-file)
+  - [Test Board V1.0](#test-board-v10)
 - [Datasheets](#datasheets)
   - [BQ24600](#bq24600)
 - [GitHub](#github)
@@ -43,10 +44,10 @@ Highly integrated controller with wide operating range
 |Vin (Max) (V)	       |24              |
 |Vout (Nom) (V)        |12.6            |
 |Iout (Max) (A)	       |0.362           |
-|Output Power (W)	   |4.5612          |
+|Output Power (W)	     |4.5612          |
 |Isolated/Non-Isolated |Non-Isolated    |
 |Input Type	           |DC              |
-|Topology	           |Buck-Synchronous|
+|Topology	             |Buck-Synchronous|
 
 #### Schematics
 {{% button href="https://www.ti.com/lit/df/tidrgx1/tidrgx1.pdf?ts=1739002202741" style="blue" icon="download" iconposition="right" %}}Get Schematics{{% /button %}}
@@ -56,6 +57,14 @@ Highly integrated controller with wide operating range
 
 #### Gerber File
 {{% button href="Ti%20Test%20Board%20img/tidcaw5.zip" style="orange" icon="download" iconposition="right" %}}Get Gerber{{% /button %}}
+
+### Test Board V1.0
+First test board of charger IC BQ24600.
+|Image|Image|
+|--------------------------------------------------|-------------------------------------------------------|
+|![imageTestBoard](Test%20Board%20V1%20img/WhatsApp%20Image%202025-02-09%20at%2008.03.40.jpeg)|![img](Test%20Board%20V1%20img/WhatsApp%20Image%202025-02-09%20at%2008.03.41.jpeg)|
+|![img](Test%20Board%20V1%20img/WhatsApp%20Image%202025-02-09%20at%2008.03.42.jpeg)|![img](Test%20Board%20V1%20img/WhatsApp%20Image%202025-02-09%20at%2008.03.42%20(1).jpeg)|
+
 
 ## Datasheets
 ### BQ24600
