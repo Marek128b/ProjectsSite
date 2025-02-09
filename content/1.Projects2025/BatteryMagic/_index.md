@@ -15,6 +15,10 @@ title: "Battery Magic"
     - [Bill of materials](#bill-of-materials)
     - [Gerber File](#gerber-file)
   - [Test Board V1.0](#test-board-v10)
+    - [Schematics](#schematics-1)
+    - [Bill of materials](#bill-of-materials-1)
+    - [Pick and Place](#pick-and-place)
+    - [Gerber File](#gerber-file-1)
 - [Datasheets](#datasheets)
   - [BQ24600](#bq24600)
 - [GitHub](#github)
@@ -64,6 +68,18 @@ First test board of charger IC BQ24600.
 |--------------------------------------------------|-------------------------------------------------------|
 |![imageTestBoard](Test%20Board%20V1%20img/WhatsApp%20Image%202025-02-09%20at%2008.03.40.jpeg)|![img](Test%20Board%20V1%20img/WhatsApp%20Image%202025-02-09%20at%2008.03.41.jpeg)|
 |![img](Test%20Board%20V1%20img/WhatsApp%20Image%202025-02-09%20at%2008.03.42.jpeg)|![img](Test%20Board%20V1%20img/WhatsApp%20Image%202025-02-09%20at%2008.03.42%20(1).jpeg)|
+
+#### Schematics
+{{% button href="Test%20Board%20V1%20img/" style="blue" icon="download" iconposition="right" %}}Get Schematics{{% /button %}}
+
+#### Bill of materials
+{{% button href="Test%20Board%20V1%20img/BOM_PCB_BQ24600%20battery%20charger%20test%20board_2023-12-20.csv" style="primary" icon="download" iconposition="right" %}}Get Bill of Materials{{% /button %}}
+
+#### Pick and Place
+{{% button href="Test%20Board%20V1%20img/PickAndPlace_PCB_BQ24600%20battery%20charger%20test%20board_2023-12-20.csv" style="secondary" icon="download" iconposition="right" %}}Get Pick and Place{{% /button %}}
+
+#### Gerber File
+{{% button href="Test%20Board%20V1%20img/Gerber_PCB_BQ24600%20battery%20charger%20test%20board.zip" style="orange" icon="download" iconposition="right" %}}Get Gerber{{% /button %}}
 
 
 ## Datasheets
