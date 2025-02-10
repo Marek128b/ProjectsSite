@@ -16,7 +16,7 @@ title: "7 Segment Display"
 
 
 ## Introduction
-![image3d](img/7SegmentDisplay-v1.1-back-3d%20noGreen.png/)
+![image3d](img/7SegmentDisplay-v1.1-back-3d%20noGreen.png)
 
 
 #### Schematics
