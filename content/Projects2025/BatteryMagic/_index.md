@@ -1,5 +1,6 @@
 ---
 title: "Battery Magic"
+weight: 2
 ---
 
 ## Table of content
