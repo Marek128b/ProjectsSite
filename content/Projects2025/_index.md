@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Projects 2025"
-weight = 2
+weight = 3
 +++
 
 In this chapter you will find a quick overview about this documentation page and the ham radio project.
