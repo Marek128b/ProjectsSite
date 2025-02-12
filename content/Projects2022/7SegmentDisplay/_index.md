@@ -16,6 +16,11 @@ title: "7 Segment Display"
 
 
 ## Introduction
+
+{{% notice style="green" title="Info" icon="fa-solid fa-circle-info" %}}
+Project is Done!
+{{% /notice %}}
+
 ![image3d](img/7SegmentDisplay-v1.1-back-3d%20noGreen.png)
 
 

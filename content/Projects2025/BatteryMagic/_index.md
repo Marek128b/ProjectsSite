@@ -27,8 +27,17 @@ weight: 2
 
 ## Introduction
 
+{{% notice style="orange" title="Info" icon="fa-solid fa-circle-info" %}}
+Project is Ongoing.
+{{% /notice %}}
+
 ## Test Boards
 ### TI Test Board
+
+{{% notice style="blue" title="Info" icon="fa-solid fa-circle-info" %}}
+Test board ordered.
+{{% /notice %}}
+
 PMP10921
 14V-24Vdc Input Voltage, 3-series Cell Li-Ion Battery Charger Reference Design
 ![imageTestBoard](Ti%20Test%20Board%20img/PMP10921%20TI%20BQ24600%20test%20Board.PNG)
@@ -64,6 +73,11 @@ Highly integrated controller with wide operating range
 {{% button href="Ti%20Test%20Board%20img/tidcaw5.zip" style="orange" icon="download" iconposition="right" %}}Get Gerber{{% /button %}}
 
 ### Test Board V1.0
+
+{{% notice style="red" title="Info" icon="fa-solid fa-circle-info" %}}
+Test board not working right.
+{{% /notice %}}
+
 First test board of charger IC BQ24600.
 |Image|Image|
 |--------------------------------------------------|-------------------------------------------------------|

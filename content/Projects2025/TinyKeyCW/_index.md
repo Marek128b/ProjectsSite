@@ -23,6 +23,11 @@ weight: 1
 
 
 ## Introduction
+
+{{% notice style="green" title="Info" icon="fa-solid fa-circle-info" %}}
+Project is Done!
+{{% /notice %}}
+
 A morse code keyer using an attiny3224.
 
 ### Idee
