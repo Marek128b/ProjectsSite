@@ -29,9 +29,9 @@ Serving as a sophisticated component of a battery management system (BMS), the B
 Its primary objective is to ensure the safe and efficient operation of battery packs by closely monitoring individual cell voltages and temperature, thereby preventing issues like overcharging, over-discharging, and thermal runaway. 
 By redistributing charge among cells, the balancer functionality maintains optimal cell balance, extending battery life and enhancing the overall reliability of the system. With its compact size and comprehensive range of features, the BQ76942 Balancer plays a crucial role in the design and implementation of high-performance battery management systems across various applications, including electric vehicles, renewable energy storage systems, and portable electronics.
 
-![alt text](img/image.png)
-
-![alt text](img/PCB_PCB_BQ76942-battery-management-system_2025-02-14.svg)
+|Image|Image|
+|-----------------------------------------------|----------------------------------------------------|
+|![alt text](img/image.png)|![alt text](img/PCB_PCB_BQ76942-battery-management-system_2025-02-14.svg)|
 
 ### Test Board V1.0
 
