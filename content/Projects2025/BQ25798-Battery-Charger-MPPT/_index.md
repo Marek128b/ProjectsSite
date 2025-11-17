@@ -7,11 +7,11 @@ weight: 6
 <!-- TOC tocDepth:2..3 chapterDepth:2..6 -->
 - [Table of content](#table-of-content)
 - [Introduction](#introduction)
+- [Overview](#overview)
     - [Schematics](#schematics)
     - [Bill of materials](#bill-of-materials)
     - [Pick and Place](#pick-and-place)
     - [Gerber File](#gerber-file)
-- [Library](#library)
 - [Datasheets](#datasheets)
   - [BQ25798](#bq25798)
 - [GitHub](#github)
@@ -21,29 +21,30 @@ weight: 6
 ## Introduction
 
 {{% notice style="orange" title="Info" icon="fa-solid fa-circle-info" %}}
-Project is Ongoing.
+Project is in Testing phase. 
 {{% /notice %}}
 
-![alt text](img/BQ25798%20test%20board%20mppt%20V1.0%203d%20render%20noBG.png)
+![alt text](img/BQ25798%20test%20board%20mppt%20V2.0%203d%20render%20noBG.png)
+
+## Overview
+The BQ25798 is a highly integrated battery charge management IC that supports multiple input sources, including solar panels and USB. It features advanced Maximum Power Point Tracking (MPPT), programmable charging profiles, and I2C communication for control and monitoring.
 
 #### Schematics
-{{% button href="https://www.ti.com/lit/df/tidrgx1/tidrgx1.pdf?ts=1739002202741" style="blue" icon="download" iconposition="right" %}}Get Schematics{{% /button %}}
+{{% button href="img/Schematic_BQ25798-test-board-mppt-solar_2025-11-17.pdf" style="blue" icon="download" iconposition="right" %}}Get Schematics{{% /button %}}
 
+![alt text](img/Schematic_BQ25798-test-board-mppt-solar_2025-11-17.svg)
 #### Bill of materials
-{{% button href="https://www.ti.com/lit/df/tidrgx2/tidrgx2.pdf?ts=1739002239837" style="primary" icon="download" iconposition="right" %}}Get Bill of Materials{{% /button %}}
+{{% button href="img/BOM_BQ25798-test-board-mppt-solar_2025-11-17.csv" style="primary" icon="download" iconposition="right" %}}Get Bill of Materials{{% /button %}}
 
 #### Pick and Place
-{{% button href="Test%20Board%20V1%20img/PickAndPlace_PCB_BQ24600%20battery%20charger%20test%20board_2023-12-20.csv" style="secondary" icon="download" iconposition="right" %}}Get Pick and Place{{% /button %}}
+{{% button href="img/PickAndPlace_PCB_BQ25798-test-board-mppt-solar_2025-11-17.csv" style="secondary" icon="download" iconposition="right" %}}Get Pick and Place{{% /button %}}
 
 #### Gerber File
-{{% button href="Ti%20Test%20Board%20img/tidcaw5.zip" style="orange" icon="download" iconposition="right" %}}Get Gerber{{% /button %}}
-
-## Library
-{{% button href="https://registry.platformio.org/libraries/marek128b/Addressable%20Seven%20Segment%20Display" style="red" %}}Platformio Library{{% /button %}}
+{{% button href="img/Gerber_BQ25798-test-board-mppt-solar_PCB_BQ25798-test-board-mppt-solar_2025-11-17.zip" style="orange" icon="download" iconposition="right" %}}Get Gerber{{% /button %}}
 
 ## Datasheets
 ### BQ25798
-{{% button href="https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3224-3226-3227-Data-Sheet-DS40002345A.pdf" style="accent" icon="download" iconposition="right" %}}Get Datasheet{{% /button %}}
+{{% button href="https://www.ti.com/lit/ds/symlink/bq25798.pdf" style="accent" icon="download" iconposition="right" %}}Get Datasheet{{% /button %}}
 
 ## GitHub 
-{{% button href="https://github.com/Marek128b/tinykeyercw/tree/main" style="info" %}}Goto GitHub{{% /button %}}
+{{% button href="https://github.com/Marek128b/BQ25798-mppt-solar-charger" style="info" %}}Goto GitHub{{% /button %}}
