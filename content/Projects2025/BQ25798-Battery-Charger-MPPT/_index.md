@@ -15,6 +15,7 @@ weight: 6
 - [Datasheets](#datasheets)
   - [BQ25798](#bq25798)
 - [GitHub](#github)
+- [Documentation](#documentation)
 
 <!-- /TOC -->
 
@@ -48,3 +49,6 @@ The BQ25798 is a highly integrated battery charge management IC that supports mu
 
 ## GitHub 
 {{% button href="https://github.com/Marek128b/BQ25798-mppt-solar-charger" style="info" %}}Goto GitHub{{% /button %}}
+
+## Documentation 
+{{% button href="img/BQ25798_docs.pdf" style="tip" %}}Get Documentation{{% /button %}}
