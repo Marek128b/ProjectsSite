@@ -29,7 +29,10 @@ This site documents a collection of projects spanning multiple years. Each proje
   A technically rich year, diving into data acquisition and advanced component-level design such as analog-to-digital converters and specialized IC experiments.
 
 - **[Projects 2025](../Projects2025/)**  
-  The latest collection of innovative builds, covering topics from battery management and LED control to advanced mixers and communication tools.
+  The latest collection of innovative builds, covering topics from battery management and LED controllers. 
+
+- **[Projects 2026](../Projects2026/)**  
+  Finaliesed the Battey charger project, further developement with the cosmol keyboard and HF technooloies. 
 
 ## 🎯 Purpose
 
